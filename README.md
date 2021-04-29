@@ -15,6 +15,11 @@ Army functionality has been moved to other Netflix projects:
 [Swabbie]: https://github.com/spinnaker/swabbie
 [Spinnaker]: https://www.spinnaker.io/
 
+### REASON FOR FORKING (ASANA)
+The original project is no longer maintained, and therefore not accepting patches. As of May 1st, 2021,
+Bintray/Jcenter repositories will no longer resolve artifacts. The build.gradle in the original project
+used jcenter to get the netflix-oss gradle plugin. This fork replaces that with mavenCentral, which now contains the needed artifact.
+
 ### DESCRIPTION
 
 The Simian Army is a suite of tools for keeping your cloud operating in top
